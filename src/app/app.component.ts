@@ -9,7 +9,7 @@ import { Comp2Component } from './comp2/comp2.component';
   imports: [RouterOutlet, Comp1Component, Comp2Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  // encapsulation: ViewEncapsulation.None,
+  encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
   title = 'view-encap';
