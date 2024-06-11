@@ -1,7 +1,17 @@
-<div class="main-div">
+<h1>Test For Ng Template</h1>
+<div *ngTemplateOutlet="template"></div>
+
+<ng-template #template>
+  <h4>Hi, I am from ng template</h4>
+</ng-template>
+
+<h2>I am app sentence</h2>
+<div *ngTemplateOutlet="template"></div>
+
+<!-- <div class="main-div">
   <div>
     <button>App btn</button>
   </div>
   <app-comp1></app-comp1>
   <app-comp2></app-comp2>
-</div>
+</div> -->
