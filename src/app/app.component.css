@@ -1,0 +1,13 @@
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        background-color: aqua;
+    }
+}
