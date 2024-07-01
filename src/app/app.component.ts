@@ -10,7 +10,7 @@ import { NgTemplateOutlet } from '@angular/common';
   imports: [RouterOutlet, Comp1Component, Comp2Component, NgTemplateOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  encapsulation: ViewEncapsulation.None,
+  // encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
   title = 'view-encap';
